@@ -1,8 +1,9 @@
 html {
   margin: 0;
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
+  
   --color-primary: #00acdc
 }
 
@@ -16,7 +17,7 @@ body {
 
 .container {
   display: flex;
-  background-color: #ffffff;
+  background-color: #fff;
   justify-content: space-between;
   align-items: center;
   max-width: 1140px;
@@ -32,6 +33,11 @@ body {
 
 .nav_items:not(:last-child) {
   margin-right: 20px;
+}
+
+.nav_links {
+  height: 56px;
+  line-height: 56px;
 }
 
 .nav_list .nav_links {
@@ -73,7 +79,4 @@ body {
   border-radius: 8px;
 }
 
-.nav_links {
-  height: 56px;
-  line-height: 56px;
-}
+
