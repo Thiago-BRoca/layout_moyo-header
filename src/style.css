@@ -39,9 +39,6 @@ body {
   height: 60px;
   line-height: 60px;
   font-size: 12px;
-}
-
-.nav_links {
   display: inline-block;
   text-transform: uppercase;
 }
