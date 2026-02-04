@@ -1,5 +1,6 @@
 html {
   margin: 0;
+  font-family: 'Roboto', Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   width: normal;
@@ -23,17 +24,17 @@ header {
   margin: 0 auto;
 }
 
-ul {
+.nav_links {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-ul li:not(:last-child) {
+.nav_links li:not(:last-child) {
   margin-right: 20px;
 }
 
-nav a {
+.nav_links a {
   display: inline-block;
   text-transform: uppercase;
 }
@@ -46,26 +47,26 @@ nav a {
   display: flex;
 }
 
-a:link {
+.nav_links a:link {
   text-decoration: none;
   color: black;
 }
 
-a:visited {
+.nav_links a:visited {
   text-decoration: none;
   color: black;
 }
 
-a:hover {
+.nav_links a:hover {
   color: var(--color-primary);
 }
 
-a.is-active {
+.nav_links a.is-active {
   position: relative;
   color: var(--color-primary);
 }
 
-a.is-active::after {
+.nav_links a.is-active::after {
   content: "";
   position: absolute;
   width: 100%;
