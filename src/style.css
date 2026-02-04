@@ -22,6 +22,7 @@ body {
   align-items: center;
   max-width: 1140px;
   margin: 0 auto;
+  padding: 0 50px;
 }
 
 .nav_list {
