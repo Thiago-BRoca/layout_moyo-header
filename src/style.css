@@ -4,7 +4,7 @@ html {
   font-style: normal;
   font-weight: 500;
 
-  --color-primary: #00acdc
+  --color-primary: #00acdc;
 }
 
 body {
@@ -68,7 +68,7 @@ body {
 }
 
 .nav_links.is-active::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 37px;
   height: 4px;
@@ -77,5 +77,3 @@ body {
   left: 0;
   border-radius: 8px;
 }
-
-
